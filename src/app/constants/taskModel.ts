@@ -1,0 +1,1 @@
+export interface TaskModel { name: string, completed: boolean }

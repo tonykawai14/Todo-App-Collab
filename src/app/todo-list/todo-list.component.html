@@ -1,0 +1,15 @@
+<div class="outer-container">
+    <div class="container">
+      <h2 class="task-title">Todo List</h2>
+      <ul>
+        <li *ngFor="let task of tasks$ | async; let taskIndex = index">
+          <span class="task-text" [style.textDecoration]="task.completed ? 'line-through' : 'none'">{{ task.name }}</span>
+          <div class="task-buttons">
+            <button class="toggle-completed" (click)="toggleCompleted(taskIndex)">Mark {{ task.completed ? 'Incomplete' : 'Completed' }}</button>
+            <button class="delete" (click)="deleteTask(taskIndex)">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

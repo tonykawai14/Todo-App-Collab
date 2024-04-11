@@ -1,0 +1,23 @@
+.navbar {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .navbar-items {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar-link {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: none;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    background-color: none;
+  }
+  

@@ -1,0 +1,82 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .task-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .task-text {
+    font-size: 18px;
+  }
+  
+  .task-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-buttons button {
+    padding: 8px 16px;
+    margin-right: 10px; /* Add margin between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-completed {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .toggle-completed.completed {
+    background-color: lightgreen;
+  }
+  
+  .toggle-completed.incomplete {
+    background-color: lightgreen;
+  }
+  
+  .delete {
+    background-color: lightcoral;
+    color: black;
+  }
+  
+  .delete:hover {
+    background-color: lightcoral;
+  }
+  
+  .toggle-completed:hover {
+    background-color: lightgreen;
+  }
+  
